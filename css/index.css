@@ -198,3 +198,143 @@ a {
         color: hwb(0 50% 50%);
     }
 }
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+form .item {
+    width: 100%;
+}
+
+form .input:not(.checkbox) {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid hwb(0 81% 19%);
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 200ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+form label {
+    width: 100%;
+    font-size: .9rem;
+    line-height: 3;
+}
+
+form input:not([type="checkbox"]) {
+    display: block;
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    padding: 0 .9rem;
+    font-size: 1.1rem;
+}
+
+form i.icon {
+    font-size: 1.4rem;
+    color: hwb(0 50% 50%);
+}
+
+form .input:not(.checkbox):focus-within {
+    border-color: hwb(214 33% 10%);
+}
+
+form .input:not(.checkbox).error {
+    border-color: hwb(0 20% 23%);
+}
+
+form .input.error~.error-message {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+form .error-message {
+    color: hwb(0 20% 23%);
+    font-size: 1rem;
+    margin-top: .5rem;
+    position: absolute;
+    transform: translateY(-10px);
+    opacity: 0;
+    transition: 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+form .ri-eye-off-line {
+    cursor: pointer;
+}
+
+form .terms {
+    position: relative;
+    display: flex;
+    align-items: center;
+    grid-area: 5px;
+}
+
+form .terms .error-message {
+    bottom: -1rem;
+}
+
+form .terms input[type="checkbox"] {
+    cursor: pointer;
+}
+
+form .button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: .5rem;
+    background-color: hwb(214 33% 10%);
+    color: hwb(0 100% 0%);
+    font-size: 1.2rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+/* form .error-message.active {
+    transform: translateY(0);
+    opacity: 1;
+} */
+
+#fourth .from-wrapper {
+    width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+    .from-wrapper {
+        padding: 20px;
+    }
+
+    .social-login {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        height: max-content;
+        overflow: visible;
+    }
+
+    .container {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .page {
+        width: 100%;
+        height: 100%;
+        left: 0;
+        transition: 300ms cubic-bezier(0.19, 1, 0.22, 1);
+    }
+
+    #second {
+        display: none;
+    }
+}

@@ -20,7 +20,8 @@
                             <div class="from-wrapper">
                                 <h1 class="heading">Get's started</h1>
                                 <p class="login-link">
-                                    Already have as acount <a href="#">Login</a>
+                                    Already have as acount
+                                    <a href="#" id="login-button">Login</a>
                                 </p>
                                 <div class="social-login">
                                     <a href="#" class="social-login-facebook">
@@ -33,6 +34,59 @@
                                     </a>
                                 </div>
                                 <div class="or"></div>
+                                <form action="" id="register">
+                                    <div class="item">
+                                        <label for="email">Email address</label>
+                                        <div class="input error">
+                                            <i class="ri-mail-line icon"></i>
+                                            <input
+                                                type="email"
+                                                id="email"
+                                                placeholder="Example@gmail.com" />
+                                        </div>
+                                        <p class="error-message active">
+                                            Please enter a valid email addres
+                                        </p>
+                                    </div>
+                                    <div class="item">
+                                        <label for="password">Password</label>
+                                        <div class="input error">
+                                            <i
+                                                class="ri-lock-unlock-line icon"></i>
+                                            <input
+                                                type="password"
+                                                id="password"
+                                                placeholder="**********" />
+                                            <i class="ri-eye-off-line icon"></i>
+                                        </div>
+                                        <p class="error-message active">
+                                            password must be at least character
+                                            long
+                                        </p>
+                                    </div>
+
+                                    <div class="item terms">
+                                        <div class="input error checkbox">
+                                            <input
+                                                type="checkbox"
+                                                id="accept" />
+                                            <label for="accept">
+                                                I accept the
+                                                <a href="#">terms of service</a>
+                                                and
+                                                <a href="#">privacy policy</a>
+                                            </label>
+                                        </div>
+                                        <p class="error-message">
+                                            You must accept the terms and
+                                            conditions
+                                        </p>
+                                    </div>
+
+                                    <div class="item">
+                                        <button class="button">Register</button>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -62,7 +116,81 @@
             <div class="page" id="fourth">
                 <div class="front">
                     <div class="outer">
-                        <div class="content"></div>
+                        <div class="content">
+                            <div class="from-wrapper">
+                                <h1 class="heading">Welcome back</h1>
+                                <p class="login-link">
+                                    Need a account
+                                    <a href="#" id="register-button"
+                                        >Register</a
+                                    >
+                                </p>
+                                <div class="social-login">
+                                    <a href="#" class="social-login-facebook">
+                                        <img src="public/f.png" alt="" />
+                                        <span> Login with Facebook</span>
+                                    </a>
+                                    <a href="#" class="social-login-google">
+                                        <img src="public/g.png" alt="" />
+                                        <span> Login with google</span>
+                                    </a>
+                                </div>
+                                <div class="or"></div>
+                                <form action="" id="register">
+                                    <div class="item">
+                                        <label for="login-email"
+                                            >Email address</label
+                                        >
+                                        <div class="input error">
+                                            <i class="ri-mail-line icon"></i>
+                                            <input
+                                                type="email"
+                                                id="login-email"
+                                                placeholder="Example@gmail.com" />
+                                        </div>
+                                        <p class="error-message active">
+                                            Please enter a valid email addres
+                                        </p>
+                                    </div>
+                                    <div class="item">
+                                        <label for="login-password"
+                                            >Password</label
+                                        >
+                                        <div class="input error">
+                                            <i
+                                                class="ri-lock-unlock-line icon"></i>
+                                            <input
+                                                type="password"
+                                                id="login-password"
+                                                placeholder="**********" />
+                                            <i class="ri-eye-off-line icon"></i>
+                                        </div>
+                                        <p class="error-message active">
+                                            password or email is incorrenct
+                                        </p>
+                                    </div>
+
+                                    <div class="item terms">
+                                        <div class="input error checkbox">
+                                            <input
+                                                type="checkbox"
+                                                id="remenber" />
+                                            <label for="remenber">
+                                                Remenber Me
+                                            </label>
+                                        </div>
+                                        <p class="error-message">
+                                            You must accept the terms and
+                                            conditions
+                                        </p>
+                                    </div>
+
+                                    <div class="item">
+                                        <button class="button">Lgin</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
