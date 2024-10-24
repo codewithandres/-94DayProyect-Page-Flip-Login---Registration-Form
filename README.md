@@ -1,43 +1,43 @@
 ![alt text](<public/bandicam 2024-10-23 21-21-22-832.jpg>)
 
-# Login and Registration Web Application
+# Aplicación web de inicio de sesión y registro
 
-This project is a web-based login and registration application with a modern user interface. It provides users with the ability to sign up or log in using email/password or social media accounts.
+Este proyecto es una aplicación de inicio de sesión y registro basada en la web con una interfaz de usuario moderna. Ofrece a los usuarios la posibilidad de registrarse o iniciar sesión mediante correo electrónico, contraseña o cuentas de redes sociales.
 
-## Project Structure
+## Estructura del proyecto
 
-- `index.html`: Main HTML file containing the structure of the login and registration forms.
-- `css/index.css`: Stylesheet for the application, including layout and design.
-- `js/`: Directory containing JavaScript files for application logic.
-  - `app.js`: Main JavaScript file for the application.
-  - `element.js`: Defines DOM element references.
-  - `event/eventFunction.js`: Handles event-related functions.
-  - `validation/`: Directory for form validation logic.
-    - `index.js`: Main validation file.
-    - `validatorFunctions.js`: Contains specific validation functions.
+-   `index.html`: Archivo HTML principal que contiene la estructura de los formularios de inicio de sesión y registro.
+-   `css/index.css`: Hoja de estilo para la aplicación, incluyendo diseño y maquetación.
+-   `js/`: Directorio que contiene archivos JavaScript para la lógica de la aplicación.
+    -   `app.js`:Archivo JavaScript principal de la aplicación.
+    -   `element.js`:Define referencias a elementos DOM.
+    -   `event/eventFunction.js`: Maneja funciones relacionadas con eventos.
+    -   `validation/`: Directorio para la lógica de validación de formularios.
+        -   `index.js`: Archivo de validación principal.
+        -   `validatorFunctions.js`: Contiene funciones de validación específicas.
 
-## Features
+## Características
 
-1. User Registration
-2. User Login
-3. Social Media Login (Facebook and Google)
-4. Form Validation
-5. Password Visibility Toggle
+1. Registro de usuario
+2. Inicio de sesión de usuario
+3. Inicio de sesión en redes sociales (Facebook y Google)
+4. Validación de formulario
+5. Activación y desactivación de la visibilidad de la contraseña
 
-## Technologies Used
+## Tecnologías utilizadas
 
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-- Google Fonts (Afacad Flux)
+-   HTML5
+-   CSS3
+-   JavaScript (ES6+)
+-   Fuentes de Google (Afacad Flux)
 
-## Getting Started
+## Empezando
 
-To run this project locally:
+Para ejecutar este proyecto localmente:
 
-1. Clone the repository
-2. Open `index.html` in a web browser
+1. Clona el repositorio
+2. Abre `index.html` en un navegador web
 
-## Note
+## Nota
 
-This is a frontend-only implementation. Backend integration would be required for full functionality.
+Esta es una implementación solo de frontend. Se requiere integración de backend para una funcionalidad completa.
