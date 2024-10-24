@@ -1,3 +1,4 @@
+// Export an object containing references to various DOM elements used in the form
 export const ELEMENT_FORM = {
     loginButton: document.querySelector('#login-button'),
     registerButton: document.querySelector('#register-button'),

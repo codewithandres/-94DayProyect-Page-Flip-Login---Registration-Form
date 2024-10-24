@@ -27,4 +27,5 @@ const changeIcon = ({ target }) => {
           target.classList.replace('ri-eye-2-line', 'ri-eye-off-line'));
 };
 
+// Export the functions for use in other modules
 export { flipForward, flipBackForward, risize, changeIcon };
